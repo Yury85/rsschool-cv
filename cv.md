@@ -40,3 +40,13 @@ function maskify(cc){
   }
 }
 ~~~
+## Education
+* Belarusian state university of informatics and radioelectronics
+    * Information technology engineer
+* HTML Academy
+    * HTML, CSS
+    * JavaScript
+
+## Languages
+* Russian - native speaker.
+* English - A2 (B1 in process…)
