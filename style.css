@@ -2,7 +2,137 @@
     font-family: 'Roboto';
     src: url("assets/fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
     font-family: 'Lato';
     src: url("assets/fonts/Lato-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav{
+    background-color: #5b7c6b;
+    margin-top : 0 ;
+}
+
+.nav-list {
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size : 20px;
+    color: whitesmoke;
+    font-family: Lato;
+    transition: .3s;
+}
+
+
+.section-profile-foto {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 70%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.nav-item a:hover {
+    color: #4d2323;
+  }
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #672f2f;
+}
+
+.section-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #4b1f1f;
+    font-size: 22px;
+    font-family:Roboto-Regular;
+}
+
+.section-title2 {
+    position: relative;
+    padding: 0;
+    margin-top: 20px;
+    color:#4b1f1f;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 30px ;
+    word-spacing: 3px;
+    font-family:Roboto-Regular;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #d7d1c9;
+}
+
+.nav-item::after {    
+    content: '';
+	width: 0px;
+	height: 5px;
+	background:whitesmoke;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transition: .5s;
+}
+
+.main-title::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 2px;
+    background-color: #829985;
 }
