@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" >
     <link rel="icon" href="assets/img/images.ico" >
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
+      
+      <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
             <li class="nav-item">
               <a href="#contacts" class="nav-link">contacts</a>
             </li>
@@ -37,11 +39,11 @@
               <a href="#languages" class="nav-link">languages</a>
             </li>
           </ul>
+        </div>
         </nav>
-      </div>
     </header>
     <main>
-      <div class="div-container">
+      <div class="div-container container">
         <section class="section section-profile" id="profile">
           <img src="assets/img/Avatar_new.jpg" alt class="section-profile-foto" />
           <div class="section-profile-title">
@@ -165,11 +167,42 @@ function maskify(cc){
         </section>
         <section class="section" id="education">
           <h2 class="section-title">EDUCATION</h2>
+          <div>
+            <ul class="section-list">
+                <li class="section-item">
+                    Belarusian state university of informatics and radioelectronics
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Information technology engineer
+                        </li>
+                         
+                    </ul>
+                </li>
+            </ul>
+          </div>
         </section>
         <section class="section" id="languages">
           <h2 class="section-title">LANGUAGES</h2>
+            <p>Russian - native speaker.</p>
+            
+            <p>English - A2 (B1 in process…)</p>
         </section>
       </div>
     </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="https://github.com/Yury85" class="GitHub" >
+                    GitHub
+                </a>
+            </div>
+            <p style="color: whitesmoke;">2022</p>
+            <div>
+                <a href="https://rs.school/js/"  >
+                    <img src="./img/RSschool_footer.png" class = "RSschool" alt="RSschool">
+                </a>
+            </div>
+        </div>
+    </footer>
   </body>
 </html>
