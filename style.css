@@ -51,7 +51,7 @@ html {
 
 .section-profile-foto {
     width: 200px;
-    height: 400px;
+    height: 200px;
     object-fit: cover;
     border-radius: 70%;
     box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
@@ -112,7 +112,7 @@ html {
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #d7d1c9;
+    border-bottom: 10px solid #d7d1c9;
 }
 
 .nav-item::after {    
@@ -168,4 +168,31 @@ p {
 .section-list {
     margin: 0;
     padding-left: 16px;
+}
+pre {
+    margin: 0;
+    padding: 0;
+}
+.code{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b1f1f;
+    
+}
+.project-item {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b1f1f;
+    
+}
+
+.project-link {
+    color: #4b1f1f;
+}
+
+.project-ul {
+    margin: 0;
+    padding: 0 0 0 16px;
 }
