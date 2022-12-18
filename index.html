@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="assets/img/images.ico" >
+  </head>
+  <body>
+    <header>
+      
+      <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#code" class="nav-link">code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">languages</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+      <div class="div-container container">
+        <section class="section section-profile" id="profile">
+          <img src="assets/img/Avatar_new.jpg" alt class="section-profile-foto" />
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">YURY YAKHIMOVICH</h1>
+            <h3 class="section-title2">Junior front-end developer</h3>
+          </div>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2 class="section-title">CONTACTS</h2>
+          <ul class="section-list">
+            <li class="section-item">Minsk, Belarus</li>
+            <li class="section-item">
+              Email:
+              <a
+                href="mailto: yuru.yakhimovich@gmail.com"
+                title="email"
+                class="section-link"
+              >
+                yuru.yakhimovich@gmail.com
+              </a>
+            </li>
+            <li class="section-item">
+              GitHub:
+              <a
+                href="https://github.com/Yury85"
+                title="GitHub"
+                class="section-link"
+              >
+                Yury85
+              </a>
+            </li>
+            <li class="section-item">
+              Linkedin:
+              <a
+                href="https://by.linkedin.com/in/yuru-yakhimovich-563a86237"
+                title="LinkedIn"
+                class="section-link"
+              >
+                yuru yakhimovich
+              </a>
+            </li>
+            <li class="section-item">
+              Discord:
+              <a
+                href="https://discord.com/channels/@me/1051096193041715232"
+                title="Discord"
+                class="section-link"
+              >
+                Yury#8553
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="summary">
+          <h2 class="section-title">SUMMARY</h2>
+          <p>
+            I have been working in technical support for 4 years. I decided to
+            study programming because I'm interested in it. Programming is used
+            in many areas of human activity. With the help of programming, many
+            interesting problems are solved, I like it. Through programming, you
+            can be useful to all human.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">SKILLS</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML5</li>
+            <li class="section-item">JavaScript Basics</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">Git/GitHub</li>
+            <li class="section-item">VS Code, IntelliJ IDEA, Figma</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">CODE</h2>
+          <pre class="code">
+function maskify(cc){
+    if (cc.length > 4) {
+      let result = '';
+      return cc.split('').reduce((acc, cur, i) => {
+        if (cc.length - i > 4) {
+          result += '#';
+        } else {
+          result += cur;
+        }s
+        return result;
+      }, '');
+    } else {
+      return cc;
+    }
+  }   
+        </pre>
+    </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">COURSES</h2>
+          <div>
+            <ul class="section-list">
+                <li class="section-item">
+                    HTML Academy
+                    <ul class="section-list">
+                        <li class="section-item">HTML, CSS</li>
+                        <li class="section-item">JavaScript</li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">PROJECTS</h2>
+          <div>
+            <ul class="project-ul">
+                <li class="project-item">
+                    <a href="https://Yury85.github.io/rsschool-cv/" class="project-link">
+                         https://Yury85.github.io/rsschool-cv/ 
+                    </a>
+                </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">EDUCATION</h2>
+          <div>
+            <ul class="section-list">
+                <li class="section-item">
+                    Belarusian state university of informatics and radioelectronics
+                    <ul class="section-list">
+                        <li class="section-item">
+                            Information technology engineer
+                        </li>
+                         
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">LANGUAGES</h2>
+            <p>Russian - native speaker.</p>
+            
+            <p>English - A2 (B1 in process…)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="https://github.com/Yury85" class="GitHub" >
+                    GitHub
+                </a>
+            </div>
+            <p style="color: whitesmoke;">2022</p>
+            <div>
+                <a href="https://rs.school/js/"  >
+                    <img src="./img/RSschool_footer.png" class = "RSschool" alt="RSschool">
+                </a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
